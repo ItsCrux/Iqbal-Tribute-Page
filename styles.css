@@ -30,7 +30,7 @@ img {
     text-align: center;
 }
 
-#header>h1 {
+#title {
     padding: 9% 0 0 0;
 }
 
@@ -99,7 +99,7 @@ li h5 {
 @media (max-width:900px) {
 
 
-    #header>h1 {
+    #title {
         padding: 12% 0 0 0;
     }
 
@@ -112,7 +112,7 @@ li h5 {
 
 
 
-    #header>h1 {
+    #title {
         padding: 16% 0 0 0;
     }
 
