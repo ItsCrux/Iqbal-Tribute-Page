@@ -31,7 +31,7 @@ img {
 }
 
 #title {
-    padding: 9% 0 0 0;
+    padding: 8% 0 0 0;
 }
 
 #image {
@@ -61,7 +61,7 @@ img {
 }
 
 #chronology li {
-    margin: 3% 0;
+    margin: 4% 0;
     font-size: 1.1rem;
 }
 
@@ -104,7 +104,7 @@ li h5 {
     }
 
     #chronology ul {
-        padding: 12% 5% 0 5%;
+        padding: 20% 5% 0 5%;
     }
 }
 
