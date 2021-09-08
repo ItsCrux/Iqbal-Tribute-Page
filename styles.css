@@ -6,6 +6,11 @@ hr {
     border-top: 5px solid #2F5D62 !important;
 }
 
+img {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
 /* Class Selectors*/
 
 .navbar-custom {
@@ -16,11 +21,6 @@ hr {
 .img-center {
     display: block;
     margin: 0 auto;
-}
-
-.img-responsive {
-    max-width: 100%;
-    height: auto;
 }
 
 /* Id Selectors*/
@@ -97,10 +97,7 @@ li h5 {
 
 
 @media (max-width:900px) {
-    #image {
-        height: 300px;
-        width: 450px;
-    }
+
 
     #header>h1 {
         padding: 12% 0 0 0;
@@ -112,10 +109,7 @@ li h5 {
 }
 
 @media (max-width:500px) {
-    #image {
-        height: 200px;
-        width: 350px;
-    }
+
 
 
     #header>h1 {
