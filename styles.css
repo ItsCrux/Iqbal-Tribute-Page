@@ -1,0 +1,113 @@
+body {
+    font-family: 'roboto', sans-serif !important;
+}
+
+hr {
+    border-top: 5px solid #2F5D62 !important;
+}
+
+/* Class Selectors*/
+
+.navbar-custom {
+    background-color: #2F5D62;
+}
+
+
+.img-center {
+    display: block;
+    margin: 0 auto;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Id Selectors*/
+
+
+#header>* {
+    text-align: center;
+}
+
+#header>h1 {
+    padding: 5% 0 0 0;
+}
+
+#image {
+    height: 450px;
+    width: 65%;
+}
+
+
+#tribute-info {
+    padding: 2%;
+
+}
+
+#tribute-info>h6 {
+    font-weight: 550;
+    font-size: 1.2rem;
+
+}
+
+#chronology {
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+#chronology ul {
+    padding: 8% 10% 0 10%;
+}
+
+#chronology li {
+    margin: 2% 0;
+    font-size: 1.1rem;
+}
+
+li h5 {
+    font-size: 1.5rem;
+}
+
+#last-list {
+    list-style-type: none;
+}
+
+#main {
+    background-color: #DFEEEA;
+
+}
+
+#wiki-link h4 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#footer {
+    background-color: #5E8B7E;
+    padding: 1% 5%;
+    color: white;
+    text-align: center;
+    ;
+}
+
+
+
+
+
+
+@media (max-width:900px) {
+    #image {
+        height: 300px;
+        width: 450px;
+    }
+
+    #header>h1 {
+        padding: 15% 0 0 0;
+    }
+
+    #chronology ul {
+        padding: 8% 5% 0 5%;
+    }
+
+}
